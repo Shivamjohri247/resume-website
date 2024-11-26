@@ -107,7 +107,7 @@ nav ul li a.active::before {
     text-align: center;
     position: relative;
     overflow: hidden;
-    background: url('http://127.0.0.1:5500/images/ai-ml-bg.jpg') center/cover no-repeat fixed !important;
+    background: url('../images/ai-ml-bg.jpg') center/cover no-repeat fixed !important;
     animation: fadeIn 1s ease-out;
 }
 
