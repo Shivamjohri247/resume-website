@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#F5F5F5"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="200" cy="150" r="100" fill="#4285F4" opacity="0.1"/>
+  <circle cx="1000" cy="150" r="120" fill="#34A853" opacity="0.1"/>
+  <circle cx="200" cy="500" r="80" fill="#FBBC05" opacity="0.1"/>
+  <circle cx="1000" cy="500" r="150" fill="#EA4335" opacity="0.1"/>
+  
+  <!-- Title -->
+  <text x="600" y="200" font-family="Inter, sans-serif" font-size="60" font-weight="700" text-anchor="middle" fill="#333333">Shivam Johri</text>
+  <text x="600" y="270" font-family="Inter, sans-serif" font-size="36" font-weight="400" text-anchor="middle" fill="#666666">Senior Machine Learning Engineer</text>
+  
+  <!-- Divider -->
+  <line x1="400" y1="320" x2="800" y2="320" stroke="#4285F4" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Features -->
+  <text x="600" y="380" font-family="Inter, sans-serif" font-size="24" font-weight="500" text-anchor="middle" fill="#333333">MLOps • AI/ML Development • Cloud Technologies</text>
+  
+  <!-- Neural Network Visualization -->
+  <circle cx="300" cy="450" r="10" fill="#4285F4"/>
+  <circle cx="350" cy="420" r="10" fill="#4285F4"/>
+  <circle cx="400" cy="450" r="10" fill="#4285F4"/>
+  <circle cx="350" cy="480" r="10" fill="#4285F4"/>
+  
+  <circle cx="500" cy="420" r="10" fill="#34A853"/>
+  <circle cx="500" cy="450" r="10" fill="#34A853"/>
+  <circle cx="500" cy="480" r="10" fill="#34A853"/>
+  
+  <circle cx="600" cy="450" r="10" fill="#FBBC05"/>
+  
+  <line x1="300" y1="450" x2="350" y2="420" stroke="#4285F4" stroke-width="2"/>
+  <line x1="300" y1="450" x2="350" y2="480" stroke="#4285F4" stroke-width="2"/>
+  <line x1="350" y1="420" x2="400" y2="450" stroke="#4285F4" stroke-width="2"/>
+  <line x1="350" y1="480" x2="400" y2="450" stroke="#4285F4" stroke-width="2"/>
+  
+  <line x1="400" y1="450" x2="500" y2="420" stroke="#34A853" stroke-width="2"/>
+  <line x1="400" y1="450" x2="500" y2="450" stroke="#34A853" stroke-width="2"/>
+  <line x1="400" y1="450" x2="500" y2="480" stroke="#34A853" stroke-width="2"/>
+  
+  <line x1="500" y1="420" x2="600" y2="450" stroke="#FBBC05" stroke-width="2"/>
+  <line x1="500" y1="450" x2="600" y2="450" stroke="#FBBC05" stroke-width="2"/>
+  <line x1="500" y1="480" x2="600" y2="450" stroke="#FBBC05" stroke-width="2"/>
+  
+  <!-- Cloud Icon -->
+  <path d="M800 450 C800 430 820 420 840 430 C850 410 880 410 890 430 C910 420 930 430 930 450 C930 470 910 480 890 480 C880 490 850 490 840 480 C820 480 800 470 800 450Z" fill="#4285F4" opacity="0.3"/>
+  
+  <!-- Footer -->
+  <text x="600" y="550" font-family="Inter, sans-serif" font-size="24" font-weight="500" text-anchor="middle" fill="#333333">Portfolio Website</text>
+  <text x="600" y="590" font-family="Inter, sans-serif" font-size="18" font-weight="400" text-anchor="middle" fill="#666666">github.com/Shivamjohri247/resume-website</text>
+</svg>
