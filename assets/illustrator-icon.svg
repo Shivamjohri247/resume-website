@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="30" cy="30" r="30" fill="#FBBC05" opacity="0.1"/>
+
+  <!-- Cloud & Programming Icon -->
+  <path d="M20 25 C20 20 25 15 30 15 C35 15 40 20 40 25 C45 25 50 30 50 35 C50 40 45 45 40 45 L20 45 C15 45 10 40 10 35 C10 30 15 25 20 25Z" fill="#FBBC05" opacity="0.3" stroke="#FBBC05" stroke-width="2"/>
+
+  <!-- Code/Programming -->
+  <path d="M25 25 L20 30 L25 35" stroke="#FBBC05" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M35 25 L40 30 L35 35" stroke="#FBBC05" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 22 L28 38" stroke="#FBBC05" stroke-width="2" stroke-linecap="round"/>
+</svg>

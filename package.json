@@ -1,0 +1,14 @@
+{
+  "name": "shivam-johri-portfolio",
+  "version": "1.0.0",
+  "description": "Shivam Johri's Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve ."
+  },
+  "author": "Shivam Johri",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
