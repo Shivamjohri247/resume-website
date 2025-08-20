@@ -8,7 +8,7 @@
     "resumeUrl": "public/resume.pdf"
   },
   "about": {
-    "intro": "Senior AI Engineer with 9.5+ years in the IT industry and 6+ years building AI/ML systems that deliver measurable business outcomes. I specialize in agentic AI, LLM-based systems, and end-to-end MLOps automation, deploying scalable, production-grade solutions. Currently at Suzega, I build autonomous agents that are context-aware, human-aligned, and designed to enhance—not replace—decision-making, leveraging structured reasoning, tool use, and memory on cloud-native infrastructure. Previously at EPAM I delivered LLM-powered search with a 77% accuracy improvement and automated ML lifecycles; at Accenture I shipped LLM query expansion (+25% coverage), personalized recommenders (+15% engagement), and automated reporting (-40% effort); at TCS I built ML pipelines for document classification and information extraction, reducing validation costs by 30%."
+    "intro": "Senior AI Engineer with 9.5+ years in the IT industry and 6+ years building AI/ML systems that deliver measurable business outcomes. I specialize in agentic AI, LLM-based systems, and end-to-end MLOps automation, deploying scalable, production-grade solutions. Currently at Suzega, I build autonomous agents that are context-aware, human-aligned, and designed to enhance—not replace—decision-making, leveraging structured reasoning, tool use, and memory on cloud-native infrastructure."
   },
   "skills": {
     "categories": [
