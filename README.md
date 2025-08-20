@@ -39,7 +39,7 @@ The website highlights:
 - **Custom SVG Illustrations**: Unique, hand-crafted illustrations that represent ML/AI concepts
 - **Smooth Animations**: Subtle entrance animations and transitions for an engaging user experience
 - **Interactive Elements**: Hover effects, custom cursor, and dynamic background elements
-- **Dark/Light Mode Toggle**: User preference-based theme switching
+// - **Dark/Light Mode Toggle**: User preference-based theme switching
 - **Optimized Performance**: Fast loading times and smooth scrolling
 - **Accessibility**: WCAG compliant design elements for all users
 - **SEO Friendly**: Proper semantic HTML structure and metadata
@@ -119,7 +119,7 @@ The website is designed to be intuitive and easy to navigate:
 
 ### Modifying Content
 
-To update the content, edit the `index.html` file. The structure is organized into sections that can be easily identified and modified.
+Content is now data-driven. Edit `data/profile.json` to update hero, about, skills, experience, education/certifications, and contact/social links. Static `index.html` acts as a template.
 
 ### Styling Changes
 
@@ -134,9 +134,9 @@ To change the styling:
 To add a new section:
 
 1. Create a new section element in `index.html`
-2. Add appropriate classes and content
-3. Style the section in `styles.css`
-4. Add any necessary JavaScript interactions in `main.js`
+2. Style it in `styles.css`
+3. Extend `data/profile.json` with a new key
+4. Update DOM injection logic in `main.js`
 
 ## 📤 Deployment
 

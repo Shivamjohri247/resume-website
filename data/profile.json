@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "title": "Shivam Johri • Senior AI Engineer"
+  },
+  "hero": {
+    "title": "Senior AI Engineer",
+    "subtitle": "AI @ Suzega. I design agentic systems and LLM-based solutions with end-to-end MLOps pipelines.",
+    "resumeUrl": "public/resume.pdf"
+  },
+  "about": {
+    "intro": "Senior AI Engineer with 9.5+ years in the IT industry and 6+ years building AI/ML systems that deliver measurable business outcomes. I specialize in agentic AI, LLM-based systems, and end-to-end MLOps automation, deploying scalable, production-grade solutions. Currently at Suzega, I build autonomous agents that are context-aware, human-aligned, and designed to enhance—not replace—decision-making, leveraging structured reasoning, tool use, and memory on cloud-native infrastructure. Previously at EPAM I delivered LLM-powered search with a 77% accuracy improvement and automated ML lifecycles; at Accenture I shipped LLM query expansion (+25% coverage), personalized recommenders (+15% engagement), and automated reporting (-40% effort); at TCS I built ML pipelines for document classification and information extraction, reducing validation costs by 30%."
+  },
+  "skills": {
+    "categories": [
+      {
+        "title": "Agentic AI & LLM Systems",
+        "description": "I build agentic systems with structured reasoning, tool use, and memory, powered by foundation models.",
+        "technologies": [
+          "LLMs (OpenAI, Claude, open-source)",
+          "LangChain / ReAct / OpenAgents",
+          "RAG",
+          "Prompt Engineering",
+          "Transformers (BERT, fine-tuning SLMs)",
+          "Evaluation & Observability"
+        ]
+      },
+      {
+        "title": "MLOps & Data Engineering",
+        "description": "I automate full ML lifecycles and scalable deployments for production-grade systems.",
+        "technologies": [
+          "MLflow",
+          "Apache Airflow",
+          "Kubernetes",
+          "Docker",
+          "Vertex AI Pipelines",
+          "GitHub Actions (CI/CD)",
+          "Model Monitoring",
+          "Feature Stores"
+        ]
+      },
+      {
+        "title": "Cloud & Programming",
+        "description": "I leverage cloud platforms and modern stacks to deliver resilient AI services.",
+        "technologies": [
+          "Google Cloud Platform (Vertex AI, BigQuery, GKE)",
+          "Amazon Web Services (AWS)",
+          "Python",
+          "FastAPI",
+          "SQL",
+          "Git/GitHub"
+        ]
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Suzega",
+      "role": "Senior AI Engineer",
+      "period": "07/2025 - Present",
+      "image": "assets/project-1.svg",
+      "highlights": [
+        "Design agent architectures integrating planning, memory, and adaptive reasoning",
+        "Develop autonomous agents with tool use and multi-step task execution",
+        "Leverage LLMs with RAG and tool orchestration in agent frameworks",
+        "Build cloud-native pipelines for agent deployment on GCP / Vertex AI",
+        "Contribute to research on agent alignment and responsible AI deployment"
+      ]
+    },
+    {
+      "company": "EPAM Systems",
+      "role": "Senior Data Scientist",
+      "period": "02/2024 - 07/2025",
+      "image": "assets/project-2.svg",
+      "highlights": [
+        "Delivered LLM-powered search systems with a 77% accuracy improvement",
+        "Built query rewriting engines using advanced NLP and generative techniques",
+        "Automated MLOps lifecycles with MLflow, Kubernetes, and Airflow",
+        "Developed custom NER for enhanced search relevancy"
+      ]
+    },
+    {
+      "company": "Accenture",
+      "role": "Senior Machine Learning Engineer",
+      "period": "09/2021 - 02/2024",
+      "image": "assets/project-3.svg",
+      "highlights": [
+        "Led LLM-based query expansion services improving coverage by 25%",
+        "Developed personalized recommender systems boosting engagement by 15%",
+        "Created vision-based fraud detection models",
+        "Automated reporting pipelines reducing manual effort by 40%"
+      ]
+    },
+    {
+      "company": "Tata Consultancy Services",
+      "role": "Machine Learning Engineer",
+      "period": "03/2016 - 11/2021",
+      "image": "assets/project-4.svg",
+      "highlights": [
+        "Built ML pipelines for document classification and information extraction (−30% validation cost)",
+        "Designed email indexing solutions supporting enterprise-scale workflows"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Electronics and Communication Engineering",
+      "institution": "Shri Ramswaroop Memorial College of Engineering & Management (SRMCEM)",
+      "period": "2011 - 2015",
+      "meta": "Affiliated to AKTU"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Google Cloud Associate Cloud Engineer",
+      "issuer": "Google Cloud",
+      "validity": "Valid till 11/2025",
+      "link": ""
+    },
+    {
+      "name": "ACP: Agent Communication Protocol",
+      "issuer": "IBM",
+      "validity": "Issued Jul 2025",
+      "link": ""
+    },
+    {
+      "name": "Building Systems with the ChatGPT API",
+      "issuer": "DeepLearning.AI",
+      "validity": "Issued Jul 2025",
+      "link": ""
+    }
+  ],
+  "contact": {
+    "email": "shivamjohri247@gmail.com",
+    "phone": "+91-9108404965"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/shivam-johri/",
+    "github": "https://github.com/Shivamjohri247"
+  }
+}
+
+

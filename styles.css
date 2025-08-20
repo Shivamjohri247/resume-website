@@ -18,6 +18,19 @@
     --ml-color-4: #EA4335;
 }
 
+/* Dark theme variables inspired by Next.js starter aesthetics */
+[data-theme="dark"] {
+    --primary-color: #60a5fa; /* tailwind sky-400 */
+    --secondary-color: #93c5fd;
+    --accent-color: #1f2937; /* slate-800 */
+    --text-color: #e5e7eb; /* gray-200 */
+    --text-light: #9ca3af; /* gray-400 */
+    --background-color: #0b1220; /* deep slate/ink */
+    --background-alt: #0f172a; /* slate-900 */
+    --border-color: #1f2937;
+    --shadow-color: rgba(0, 0, 0, 0.4);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -142,6 +155,13 @@ header.scrolled {
     padding: 1rem 0;
     background-color: rgba(255, 255, 255, 0.95);
     box-shadow: 0 5px 20px var(--shadow-color);
+    backdrop-filter: saturate(180%) blur(8px);
+    -webkit-backdrop-filter: saturate(180%) blur(8px);
+    border-bottom: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] header.scrolled {
+    background-color: rgba(15, 23, 42, 0.9);
 }
 
 header .container {
@@ -182,6 +202,10 @@ nav a:hover::after {
     width: 100%;
 }
 
+nav a.active::after {
+    width: 100%;
+}
+
 .contact-link {
     padding: 0.5rem 1rem;
     background-color: var(--primary-color);
@@ -207,6 +231,8 @@ nav a:hover::after {
     justify-content: center;
     position: relative;
     padding: 6rem 0;
+    background: radial-gradient(1200px 600px at 10% -10%, rgba(96, 165, 250, 0.25), transparent 60%),
+                radial-gradient(800px 400px at 90% 10%, rgba(52, 211, 153, 0.25), transparent 60%);
 }
 
 .hero-content {
@@ -250,6 +276,24 @@ nav a:hover::after {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(52, 168, 83, 0.4);
     color: white;
+}
+
+.button-secondary {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-left: 0.75rem;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    transition: background-color var(--transition-medium), color var(--transition-medium), transform var(--transition-medium), border-color var(--transition-medium);
+}
+
+.button-secondary:hover {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border-color: var(--primary-color);
+    transform: translateY(-3px);
 }
 
 .scroll-indicator {
@@ -336,6 +380,38 @@ nav a:hover::after {
     pointer-events: none;
     z-index: -1;
 }
+
+/* Gradient headline like Next.js starter */
+.gradient-text {
+    background: linear-gradient(90deg, var(--ml-color-1), var(--ml-color-2), var(--ml-color-3), var(--ml-color-4));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Theme toggle */
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+    border: 1px solid var(--border-color);
+    background: transparent;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast), transform var(--transition-fast);
+}
+
+.theme-toggle:hover { 
+    background-color: var(--background-alt);
+    transform: translateY(-2px);
+}
+
+.theme-toggle .icon-sun { display: none; }
+[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
 
 .element {
     position: absolute;
@@ -473,6 +549,7 @@ nav a:hover::after {
 
 .skill-card {
     background-color: var(--background-color);
+    border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 2rem;
     box-shadow: 0 10px 30px var(--shadow-color);
@@ -527,6 +604,7 @@ nav a:hover::after {
 
 .work-item {
     background-color: var(--background-color);
+    border: 1px solid var(--border-color);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 10px 30px var(--shadow-color);
@@ -609,6 +687,7 @@ nav a:hover::after {
 
 .note-item {
     background-color: var(--background-color);
+    border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 2rem;
     box-shadow: 0 10px 30px var(--shadow-color);
@@ -801,4 +880,55 @@ footer {
     .intro-image {
         max-width: 300px;
     }
+}
+
+/* Preloader overlay */
+.preloader {
+    position: fixed;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    background: var(--background-color);
+    z-index: 10000;
+    transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+
+.preloader.loaded {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.preloader-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.preloader .logo {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.loading-bar {
+    width: 200px;
+    height: 6px;
+    background: var(--background-alt);
+    border-radius: 9999px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+}
+
+.loading-progress {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(90deg, var(--ml-color-1), var(--ml-color-2));
+    animation: loadProgress 1.2s ease-in-out infinite;
+}
+
+@keyframes loadProgress {
+    0% { width: 0%; }
+    50% { width: 70%; }
+    100% { width: 100%; }
 }
